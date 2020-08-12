@@ -1,7 +1,7 @@
 {
   "AppTitle" : "Actions",
   "FeatureDisabled" : {
-    "ToastMessage" : "Le service auquel vous essayez d'accéder n'est pas activé, veuillez contacter l'administrateur."
+    "ToastMessage" : "Le service auquel vous essayez d'accéder n'est pas activé, veuillez contacter l'Administrateur."
   },
   "Form" : {
     "BucketFileNotFound" : "Le contenu de ce formulaire n'a pas pu être chargé complètement, le(s) fichier(s) du seau n'a (ont) pas été trouvé(s)",
