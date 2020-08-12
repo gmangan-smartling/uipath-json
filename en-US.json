@@ -133,6 +133,7 @@
         "NoPendingActions": "No Pending actions!",
         "NoUnassignedActions": "No Unassigned actions!",
         "NotExist": "Action does not exist",
+        "TestNewKey": "New key added here.",
         "Search": {
             "Clear": "Clear",
             "Placeholder": "Search...",
