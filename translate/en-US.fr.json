@@ -9,157 +9,158 @@
     "FormDataBucketnameMissing" : "Les données du formulaire sont incorrectes. Nom du compartiment manquant",
     "IncorrectData" : "Impossible de rendre ce formulaire en raison de données non valides",
     "IncorrectLayout" : "Impossible de rendre ce formulaire en raison d'une mise en page non valide",
-    "InvalidCascadedDropdownData" : ""
+    "InvalidCascadedDropdownData" : "Invalid cascaded dropdown data. Matching '_dropdown' field for a '_parent' field was not found"
   },
   "Global" : {
-    "Cancel" : "",
+    "Cancel" : "Cancel",
     "ConfirmationModalText" : "Êtes-vous sûr de vouloir poursuivre ?",
-    "DialogPreferenceCheckbox" : "",
-    "GenericConnectionError" : "",
-    "GenericError" : "",
-    "Loading" : "",
-    "Ok" : ""
+    "DialogPreferenceCheckbox" : "Don’t ask me again for future actions.",
+    "GenericConnectionError" : "Could not connect to the server",
+    "GenericError" : "An unexpected error has occured. Please try again later",
+    "Loading" : "Loading details...",
+    "Ok" : "OK"
   },
-  "IntervalsLastDay" : "",
-  "IntervalsLastHour" : "",
-  "IntervalsLastMonth" : "",
-  "IntervalsLastWeek" : "",
+  "IntervalsLastDay" : "Last 24 hours",
+  "IntervalsLastHour" : "Last hour",
+  "IntervalsLastMonth" : "Last 30 days",
+  "IntervalsLastWeek" : "Last week",
   "NoAccess" : {
     "Default" : {
-      "Heading" : "",
-      "Message" : ""
+      "Heading" : "Oops! Something went wrong...",
+      "Message" : "The page you are looking for might have been removed, had its name changed or is temporarily unavailable."
     },
     "FeatureDisabled" : {
-      "Heading" : "",
-      "Message" : ""
+      "Heading" : "Feature not enabled for your account",
+      "Message" : "Please contact your administrator."
     },
-    "GoToHomeButton" : "",
+    "GoToHomeButton" : "Go to Home Page",
     "Unauthorized" : {
-      "Heading" : "",
-      "Message" : ""
+      "Heading" : "You don’t have permission to view this page",
+      "Message" : "If you have access to multiple Orchestrator tenants, try switching to another from the profile icon. Else, contact your administrator for necessary permissions."
     }
   },
   "TaskActions" : {
-    "Assign" : "",
+    "Assign" : "Assign",
     "AssignMessages" : {
-      "Failure" : "",
-      "PartialSuccess" : "",
-      "Success" : ""
+      "Failure" : "Action(s) assignments failed!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions assigned successfully.",
+      "Success" : "Action(s) assigned successfully"
     },
-    "AssignToSelf" : "",
-    "AssignToSelfMessage" : "",
-    "AssignToUser" : "",
-    "Complete" : "",
-    "CompletedMsg" : "",
-    "Forward" : "",
-    "Reassign" : "",
+    "AssignToSelf" : "Assign to self",
+    "AssignToSelfMessage" : "Action assigned to you successfully",
+    "AssignToUser" : "Assign to user",
+    "Complete" : "Complete",
+    "CompletedMsg" : "Action completed successfully",
+    "Forward" : "Forward",
+    "Reassign" : "Re-Assign",
     "ReassignMessages" : {
-      "Failure" : "",
-      "PartialSuccess" : "",
-      "Success" : ""
+      "Failure" : "Actions reassignments failed!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions re-assigned successfully.",
+      "Success" : "Action(s) has been reassigned successfully"
     },
-    "Save" : "",
-    "Unassign" : "",
+    "Save" : "Save",
+    "Unassign" : "Unassign",
     "UnassignMessages" : {
-      "Failure" : "",
-      "PartialSuccess" : "",
-      "Success" : ""
+      "Failure" : "Actions un-assignments failed!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions un-assigned successfully.",
+      "Success" : "Action(s) un-assigned successfully"
     }
   },
   "TaskAssignDialog" : {
-    "AssignButton" : "",
-    "AssignDescription" : "",
-    "AssignHeader" : "",
-    "CreatedOn" : "",
-    "Id" : "",
-    "Priority" : "",
-    "ReassignButton" : "",
-    "ReassignDescription" : "",
-    "ReassignHeader" : "",
-    "ReassignWarning" : "",
-    "Title" : ""
+    "AssignButton" : "Assign",
+    "AssignDescription" : "Assign to User",
+    "AssignHeader" : "Assign Action",
+    "CreatedOn" : "Created On:",
+    "Id" : "Id:",
+    "Priority" : "Priority:",
+    "ReassignButton" : "Reassign",
+    "ReassignDescription" : "Reassign to User",
+    "ReassignHeader" : "Reassign Action",
+    "ReassignWarning" : "Action is already assigned to",
+    "Title" : "Title:"
   },
   "TaskCompleteDialog" : {
-    "Complete" : "",
-    "Header" : "",
-    "Text" : ""
+    "Complete" : "Complete",
+    "Header" : "Complete Action",
+    "Text" : "Do you wish to mark this action as complete?"
   },
   "TaskDetail" : {
     "PendingBanner" : {
-      "Action" : "",
-      "Message" : ""
+      "Action" : "Re-Assign",
+      "Message" : "Action pending on {{userDisplayName}}."
     },
-    "ReadOnlyFormTooltip" : "",
-    "TaskNotSelected" : "",
-    "TaskNotSupported" : "",
+    "ReadOnlyFormTooltip" : "Assign to self to complete this task",
+    "TaskNotSelected" : "No Actions selected. Select an Action from the list to view it.",
+    "TaskNotSupported" : "No visualization available for this Action.",
     "UnassignedBanner" : {
-      "Message" : "",
-      "TaskAdminAction" : "",
-      "TaskUserAction" : ""
+      "Message" : "To complete this action, ",
+      "TaskAdminAction" : "Assign to a user",
+      "TaskUserAction" : "Assign to self"
     },
-    "WrongUrl" : ""
+    "WrongUrl" : "The Action URL is invalid."
   },
   "TaskUnassignDialog" : {
-    "Description" : "",
-    "Header" : ""
+    "Description" : "Do you wish to unassign action(s)?",
+    "Header" : "Unassign Action"
   },
   "Tasks" : {
-    "Collapse" : "",
-    "EndOfList" : "",
-    "Expand" : "",
+    "Collapse" : "Collapse",
+    "EndOfList" : "End of List.",
+    "Expand" : "Expand",
     "Filter" : {
-      "FilterHeader" : "",
+      "FilterHeader" : "Filter By:",
       "TaskPriority" : {
-        "Critical" : "",
-        "High" : "",
-        "Low" : "",
-        "Medium" : ""
+        "Critical" : "Critical",
+        "High" : "High",
+        "Low" : "Low",
+        "Medium" : "Medium"
       },
       "TaskType" : {
-        "DocumentValidationTask" : "",
-        "ExternalTask" : "",
-        "FormTask" : ""
+        "DocumentValidationTask" : "Document Validation",
+        "ExternalTask" : "External",
+        "FormTask" : "Form"
       }
     },
     "Status" : {
-      "Pending" : "",
-      "Unassigned" : "",
-      "Completed" : ""
+      "Pending" : "Pending",
+      "Unassigned" : "Unassigned",
+      "Completed" : "Completed"
     },
-    "MoreOptions" : "",
-    "MultiSelectTooltip" : "",
-    "NoCompletedActions" : "",
-    "NoMatchesFound" : "",
-    "NoPendingActions" : "",
-    "NoUnassignedActions" : "",
-    "NotExist" : "",
-    "TestNewKey" : "",
+    "MoreOptions" : "More options",
+    "MultiSelectTooltip" : "Select multiple actions",
+    "NoCompletedActions" : "No Completed actions yet!",
+    "NoMatchesFound" : "No matching actions found",
+    "NoPendingActions" : "No Pending actions!",
+    "NoUnassignedActions" : "No Unassigned actions!",
+    "NotExist" : "Action does not exist",
+    "TestNewKey" : "New key added here.",
+    "LookANewKey" : "What a lucky key I am.",
     "Search" : {
-      "Clear" : "",
-      "Placeholder" : "",
-      "Tooltip" : ""
+      "Clear" : "Clear",
+      "Placeholder" : "Search...",
+      "Tooltip" : "Search"
     },
     "Sort" : {
       "CreationTime" : {
-        "asc" : "",
-        "ascSubMenu" : "",
-        "desc" : "",
-        "descSubMenu" : ""
+        "asc" : " (Oldest on Top)",
+        "ascSubMenu" : "Oldest on Top",
+        "desc" : " (Latest on Top)",
+        "descSubMenu" : "Latest on Top"
       },
-      "SortHeader" : "",
+      "SortHeader" : "Sort By:",
       "TaskPriority" : {
-        "asc" : "",
-        "ascSubMenu" : "",
-        "desc" : "",
-        "descSubMenu" : ""
+        "asc" : " (Low to High)",
+        "ascSubMenu" : "Lowest Priority on Top",
+        "desc" : " (High to Low)",
+        "descSubMenu" : "Highest Priority on Top"
       }
     },
-    "SortFilterTooltip" : "",
-    "TasksListViewAsAdmin" : "",
-    "TasksListViewAsUser" : ""
+    "SortFilterTooltip" : "Sort and Filter actions",
+    "TasksListViewAsAdmin" : "Manage Actions",
+    "TasksListViewAsUser" : "My Actions"
   },
   "UnsavedChangesDialog" : {
-    "Header" : "",
-    "Text" : ""
+    "Header" : "Unsaved Changes!",
+    "Text" : "Are you sure you want to leave the action without saving the changes?"
   }
 }
