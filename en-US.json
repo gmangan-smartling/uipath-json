@@ -134,6 +134,7 @@
         "NoUnassignedActions": "No Unassigned actions!",
         "NotExist": "Action does not exist",
         "TestNewKey": "New key added here.",
+        "LookANewKey": "What a lucky key I am.",
         "Search": {
             "Clear": "Clear",
             "Placeholder": "Search...",
