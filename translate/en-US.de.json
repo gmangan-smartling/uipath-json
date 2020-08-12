@@ -1,0 +1,164 @@
+{
+  "AppTitle" : "Aktionen",
+  "FeatureDisabled" : {
+    "ToastMessage" : ""
+  },
+  "Form" : {
+    "BucketFileNotFound" : "",
+    "FormBucketNotFound" : "",
+    "FormDataBucketnameMissing" : "",
+    "IncorrectData" : "Dieses Formular konnte aufgrund ungültiger Daten nicht gerendert werden.",
+    "IncorrectLayout" : "Dieses Formular konnte aufgrund eines ungültigen Layouts nicht gerendert werden.",
+    "InvalidCascadedDropdownData" : "Invalid cascaded dropdown data. Matching '_dropdown' field for a '_parent' field was not found"
+  },
+  "Global" : {
+    "Cancel" : "Abbrechen",
+    "ConfirmationModalText" : "",
+    "DialogPreferenceCheckbox" : "",
+    "GenericConnectionError" : "Konnte keine Verbindung zum Server herstellen",
+    "GenericError" : "",
+    "Loading" : "Wird geladen ...",
+    "Ok" : ""
+  },
+  "IntervalsLastDay" : "",
+  "IntervalsLastHour" : "",
+  "IntervalsLastMonth" : "Letzte 30 Tage",
+  "IntervalsLastWeek" : "Letzte Woche",
+  "NoAccess" : {
+    "Default" : {
+      "Heading" : "",
+      "Message" : ""
+    },
+    "FeatureDisabled" : {
+      "Heading" : "",
+      "Message" : ""
+    },
+    "GoToHomeButton" : "",
+    "Unauthorized" : {
+      "Heading" : "",
+      "Message" : ""
+    }
+  },
+  "TaskActions" : {
+    "Assign" : "",
+    "AssignMessages" : {
+      "Failure" : "",
+      "PartialSuccess" : "",
+      "Success" : ""
+    },
+    "AssignToSelf" : "Sich selbst zuweisen",
+    "AssignToSelfMessage" : "Aktion wurde Ihnen erfolgreich zugewiesen.",
+    "AssignToUser" : "",
+    "Complete" : "Abgeschlossen",
+    "CompletedMsg" : "Aktion erfolgreich abgeschlossen",
+    "Forward" : "Weiterleiten",
+    "Reassign" : "Neu zuweisen",
+    "ReassignMessages" : {
+      "Failure" : "",
+      "PartialSuccess" : "",
+      "Success" : ""
+    },
+    "Save" : "Speichern",
+    "Unassign" : "Zuweisung aufheben",
+    "UnassignMessages" : {
+      "Failure" : "Aufhebung der Zuweisung von Aktionen fehlgeschlagen!",
+      "PartialSuccess" : "",
+      "Success" : "Zuweisung von Aktion(en) erfolgreich aufgehoben"
+    }
+  },
+  "TaskAssignDialog" : {
+    "AssignButton" : "",
+    "AssignDescription" : "Dem Benutzer zuweisen",
+    "AssignHeader" : "Aktion zuweisen",
+    "CreatedOn" : "Erstellt am:",
+    "Id" : "ID:",
+    "Priority" : "Priorität:",
+    "ReassignButton" : "Neu zuweisen",
+    "ReassignDescription" : "",
+    "ReassignHeader" : "Aktion neu zuweisen",
+    "ReassignWarning" : "",
+    "Title" : "Titel:"
+  },
+  "TaskCompleteDialog" : {
+    "Complete" : "",
+    "Header" : "Aktion abschließen",
+    "Text" : "Möchten Sie diese Aktion als abgeschlossen markieren?"
+  },
+  "TaskDetail" : {
+    "PendingBanner" : {
+      "Action" : "Neu zuweisen",
+      "Message" : ""
+    },
+    "ReadOnlyFormTooltip" : "",
+    "TaskNotSelected" : "",
+    "TaskNotSupported" : "Für diese Aktion ist keine Visualisierung verfügbar. Verwenden Sie die Option \"Abschließen\", um darauf zu reagieren, wenn diese Aktion nicht vom externen System abgeschlossen werden konnte.",
+    "UnassignedBanner" : {
+      "Message" : "",
+      "TaskAdminAction" : "",
+      "TaskUserAction" : "Sich selbst zuweisen"
+    },
+    "WrongUrl" : "Die Aktions-URL ist ungültig."
+  },
+  "TaskUnassignDialog" : {
+    "Description" : "",
+    "Header" : ""
+  },
+  "Tasks" : {
+    "Collapse" : "Reduzieren",
+    "EndOfList" : "",
+    "Expand" : "Erweitern",
+    "Filter" : {
+      "FilterHeader" : "Filtern nach:",
+      "TaskPriority" : {
+        "Critical" : "Kritisch",
+        "High" : "Hoch",
+        "Low" : "Niedrig",
+        "Medium" : "Mittel"
+      },
+      "TaskType" : {
+        "DocumentValidationTask" : "",
+        "ExternalTask" : "Extern",
+        "FormTask" : "Formular"
+      }
+    },
+    "Status" : {
+      "Pending" : "",
+      "Unassigned" : "",
+      "Completed" : ""
+    },
+    "MoreOptions" : "Weitere Optionen",
+    "MultiSelectTooltip" : "",
+    "NoCompletedActions" : "",
+    "NoMatchesFound" : "",
+    "NoPendingActions" : "",
+    "NoUnassignedActions" : "",
+    "NotExist" : "",
+    "Search" : {
+      "Clear" : "Löschen",
+      "Placeholder" : "Suchen",
+      "Tooltip" : "Suchen"
+    },
+    "Sort" : {
+      "CreationTime" : {
+        "asc" : "",
+        "ascSubMenu" : "",
+        "desc" : "",
+        "descSubMenu" : ""
+      },
+      "SortHeader" : "",
+      "TaskPriority" : {
+        "asc" : "",
+        "ascSubMenu" : "",
+        "desc" : "",
+        "descSubMenu" : ""
+      }
+    },
+    "SortFilterTooltip" : "",
+    "TasksListViewAsAdmin" : "",
+    "TasksListViewAsUser" : ""
+  },
+  "UnsavedChangesDialog" : {
+    "Header" : "Nicht gespeicherte Änderungen!",
+    "Text" : "Möchten Sie die Aktion wirklich verlassen, ohne die Änderungen zu speichern?"
+  }
+}
