@@ -13,7 +13,7 @@
   },
   "Global" : {
     "Cancel" : "",
-    "ConfirmationModalText" : "",
+    "ConfirmationModalText" : "Êtes-vous sûr de vouloir poursuivre ?",
     "DialogPreferenceCheckbox" : "",
     "GenericConnectionError" : "",
     "GenericError" : "",
