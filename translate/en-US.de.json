@@ -133,6 +133,7 @@
     "NoPendingActions" : "",
     "NoUnassignedActions" : "",
     "NotExist" : "",
+    "TestNewKey" : "",
     "Search" : {
       "Clear" : "Löschen",
       "Placeholder" : "Suchen",
