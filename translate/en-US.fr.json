@@ -1,0 +1,164 @@
+{
+  "AppTitle" : "Actions",
+  "FeatureDisabled" : {
+    "ToastMessage" : "Le service auquel vous essayez d'accéder n'est pas activé, veuillez contacter l'administrateur."
+  },
+  "Form" : {
+    "BucketFileNotFound" : "Le contenu de ce formulaire n'a pas pu être chargé complètement, le(s) fichier(s) du seau n'a (ont) pas été trouvé(s)",
+    "FormBucketNotFound" : "Le contenu sous cette forme n'a pas pu être chargé complètement, le seau n'a pas été trouvé ou n'était pas accessible",
+    "FormDataBucketnameMissing" : "Les données du formulaire sont incorrectes. Nom du compartiment manquant",
+    "IncorrectData" : "Impossible de rendre ce formulaire en raison de données non valides",
+    "IncorrectLayout" : "Impossible de rendre ce formulaire en raison d'une mise en page non valide",
+    "InvalidCascadedDropdownData" : ""
+  },
+  "Global" : {
+    "Cancel" : "",
+    "ConfirmationModalText" : "",
+    "DialogPreferenceCheckbox" : "",
+    "GenericConnectionError" : "",
+    "GenericError" : "",
+    "Loading" : "",
+    "Ok" : ""
+  },
+  "IntervalsLastDay" : "",
+  "IntervalsLastHour" : "",
+  "IntervalsLastMonth" : "",
+  "IntervalsLastWeek" : "",
+  "NoAccess" : {
+    "Default" : {
+      "Heading" : "",
+      "Message" : ""
+    },
+    "FeatureDisabled" : {
+      "Heading" : "",
+      "Message" : ""
+    },
+    "GoToHomeButton" : "",
+    "Unauthorized" : {
+      "Heading" : "",
+      "Message" : ""
+    }
+  },
+  "TaskActions" : {
+    "Assign" : "",
+    "AssignMessages" : {
+      "Failure" : "",
+      "PartialSuccess" : "",
+      "Success" : ""
+    },
+    "AssignToSelf" : "",
+    "AssignToSelfMessage" : "",
+    "AssignToUser" : "",
+    "Complete" : "",
+    "CompletedMsg" : "",
+    "Forward" : "",
+    "Reassign" : "",
+    "ReassignMessages" : {
+      "Failure" : "",
+      "PartialSuccess" : "",
+      "Success" : ""
+    },
+    "Save" : "",
+    "Unassign" : "",
+    "UnassignMessages" : {
+      "Failure" : "",
+      "PartialSuccess" : "",
+      "Success" : ""
+    }
+  },
+  "TaskAssignDialog" : {
+    "AssignButton" : "",
+    "AssignDescription" : "",
+    "AssignHeader" : "",
+    "CreatedOn" : "",
+    "Id" : "",
+    "Priority" : "",
+    "ReassignButton" : "",
+    "ReassignDescription" : "",
+    "ReassignHeader" : "",
+    "ReassignWarning" : "",
+    "Title" : ""
+  },
+  "TaskCompleteDialog" : {
+    "Complete" : "",
+    "Header" : "",
+    "Text" : ""
+  },
+  "TaskDetail" : {
+    "PendingBanner" : {
+      "Action" : "",
+      "Message" : ""
+    },
+    "ReadOnlyFormTooltip" : "",
+    "TaskNotSelected" : "",
+    "TaskNotSupported" : "",
+    "UnassignedBanner" : {
+      "Message" : "",
+      "TaskAdminAction" : "",
+      "TaskUserAction" : ""
+    },
+    "WrongUrl" : ""
+  },
+  "TaskUnassignDialog" : {
+    "Description" : "",
+    "Header" : ""
+  },
+  "Tasks" : {
+    "Collapse" : "",
+    "EndOfList" : "",
+    "Expand" : "",
+    "Filter" : {
+      "FilterHeader" : "",
+      "TaskPriority" : {
+        "Critical" : "",
+        "High" : "",
+        "Low" : "",
+        "Medium" : ""
+      },
+      "TaskType" : {
+        "DocumentValidationTask" : "",
+        "ExternalTask" : "",
+        "FormTask" : ""
+      }
+    },
+    "Status" : {
+      "Pending" : "",
+      "Unassigned" : "",
+      "Completed" : ""
+    },
+    "MoreOptions" : "",
+    "MultiSelectTooltip" : "",
+    "NoCompletedActions" : "",
+    "NoMatchesFound" : "",
+    "NoPendingActions" : "",
+    "NoUnassignedActions" : "",
+    "NotExist" : "",
+    "Search" : {
+      "Clear" : "",
+      "Placeholder" : "",
+      "Tooltip" : ""
+    },
+    "Sort" : {
+      "CreationTime" : {
+        "asc" : "",
+        "ascSubMenu" : "",
+        "desc" : "",
+        "descSubMenu" : ""
+      },
+      "SortHeader" : "",
+      "TaskPriority" : {
+        "asc" : "",
+        "ascSubMenu" : "",
+        "desc" : "",
+        "descSubMenu" : ""
+      }
+    },
+    "SortFilterTooltip" : "",
+    "TasksListViewAsAdmin" : "",
+    "TasksListViewAsUser" : ""
+  },
+  "UnsavedChangesDialog" : {
+    "Header" : "",
+    "Text" : ""
+  }
+}
