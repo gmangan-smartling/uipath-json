@@ -1,0 +1,164 @@
+{
+  "AppTitle" : "Aktionen",
+  "FeatureDisabled" : {
+    "ToastMessage" : "Service you are trying to access is not enabled, please contact administrator."
+  },
+  "Form" : {
+    "BucketFileNotFound" : "Contents in this form could not be loaded completely, bucket file(s) not found",
+    "FormBucketNotFound" : "Contents in this form could not be loaded completely, bucket was either not found or not accessible",
+    "FormDataBucketnameMissing" : "Form data is incorrect. Missing Bucket Name",
+    "IncorrectData" : "Dieses Formular konnte aufgrund ungültiger Daten nicht gerendert werden.",
+    "IncorrectLayout" : "Dieses Formular konnte aufgrund eines ungültigen Layouts nicht gerendert werden.",
+    "InvalidCascadedDropdownData" : "Invalid cascaded dropdown data. Matching '_dropdown' field for a '_parent' field was not found"
+  },
+  "Global" : {
+    "Cancel" : "Abbrechen",
+    "ConfirmationModalText" : "Are you sure you want to proceed?",
+    "DialogPreferenceCheckbox" : "Don’t ask me again for future actions.",
+    "GenericConnectionError" : "Konnte keine Verbindung zum Server herstellen",
+    "GenericError" : "An unexpected error has occured. Please try again later",
+    "Loading" : "Wird geladen ...",
+    "Ok" : "OK"
+  },
+  "IntervalsLastDay" : "Last 24 hours",
+  "IntervalsLastHour" : "Last hour",
+  "IntervalsLastMonth" : "Letzte 30 Tage",
+  "IntervalsLastWeek" : "Letzte Woche",
+  "NoAccess" : {
+    "Default" : {
+      "Heading" : "Oops! Something went wrong...",
+      "Message" : "The page you are looking for might have been removed, had its name changed or is temporarily unavailable."
+    },
+    "FeatureDisabled" : {
+      "Heading" : "Feature not enabled for your account",
+      "Message" : "Please contact your administrator."
+    },
+    "GoToHomeButton" : "Go to Home Page",
+    "Unauthorized" : {
+      "Heading" : "You don’t have permission to view this page",
+      "Message" : "If you have access to multiple Orchestrator tenants, try switching to another from the profile icon. Else, contact your administrator for necessary permissions."
+    }
+  },
+  "TaskActions" : {
+    "Assign" : "Assign",
+    "AssignMessages" : {
+      "Failure" : "Action(s) assignments failed!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions assigned successfully.",
+      "Success" : "Action(s) assigned successfully"
+    },
+    "AssignToSelf" : "Sich selbst zuweisen",
+    "AssignToSelfMessage" : "Aktion wurde Ihnen erfolgreich zugewiesen.",
+    "AssignToUser" : "Assign to user",
+    "Complete" : "Abgeschlossen",
+    "CompletedMsg" : "Aktion erfolgreich abgeschlossen",
+    "Forward" : "Weiterleiten",
+    "Reassign" : "Neu zuweisen",
+    "ReassignMessages" : {
+      "Failure" : "Actions reassignments failed!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions re-assigned successfully.",
+      "Success" : "Action(s) has been reassigned successfully"
+    },
+    "Save" : "Speichern",
+    "Unassign" : "Zuweisung aufheben",
+    "UnassignMessages" : {
+      "Failure" : "Aufhebung der Zuweisung von Aktionen fehlgeschlagen!",
+      "PartialSuccess" : "{{successful}} out of {{total}} actions un-assigned successfully.",
+      "Success" : "Zuweisung von Aktion(en) erfolgreich aufgehoben"
+    }
+  },
+  "TaskAssignDialog" : {
+    "AssignButton" : "Assign",
+    "AssignDescription" : "Dem Benutzer zuweisen",
+    "AssignHeader" : "Aktion zuweisen",
+    "CreatedOn" : "Erstellt am:",
+    "Id" : "ID:",
+    "Priority" : "Priorität:",
+    "ReassignButton" : "Neu zuweisen",
+    "ReassignDescription" : "Reassign to User",
+    "ReassignHeader" : "Aktion neu zuweisen",
+    "ReassignWarning" : "Action is already assigned to",
+    "Title" : "Titel:"
+  },
+  "TaskCompleteDialog" : {
+    "Complete" : "Complete",
+    "Header" : "Aktion abschließen",
+    "Text" : "Möchten Sie diese Aktion als abgeschlossen markieren?"
+  },
+  "TaskDetail" : {
+    "PendingBanner" : {
+      "Action" : "Neu zuweisen",
+      "Message" : "Action pending on {{userDisplayName}}."
+    },
+    "ReadOnlyFormTooltip" : "Assign to self to complete this task",
+    "TaskNotSelected" : "No Actions selected. Select an Action from the list to view it.",
+    "TaskNotSupported" : "Für diese Aktion ist keine Visualisierung verfügbar. Verwenden Sie die Option \"Abschließen\", um darauf zu reagieren, wenn diese Aktion nicht vom externen System abgeschlossen werden konnte.",
+    "UnassignedBanner" : {
+      "Message" : "To complete this action, ",
+      "TaskAdminAction" : "Assign to a user",
+      "TaskUserAction" : "Sich selbst zuweisen"
+    },
+    "WrongUrl" : "Die Aktions-URL ist ungültig."
+  },
+  "TaskUnassignDialog" : {
+    "Description" : "Do you wish to unassign action(s)?",
+    "Header" : "Unassign Action"
+  },
+  "Tasks" : {
+    "Collapse" : "Reduzieren",
+    "EndOfList" : "End of List.",
+    "Expand" : "Erweitern",
+    "Filter" : {
+      "FilterHeader" : "Filtern nach:",
+      "TaskPriority" : {
+        "Critical" : "Kritisch",
+        "High" : "Hoch",
+        "Low" : "Niedrig",
+        "Medium" : "Mittel"
+      },
+      "TaskType" : {
+        "DocumentValidationTask" : "Document Validation",
+        "ExternalTask" : "Extern",
+        "FormTask" : "Formular"
+      }
+    },
+    "Status" : {
+      "Pending" : "Pending",
+      "Unassigned" : "Unassigned",
+      "Completed" : "Completed"
+    },
+    "MoreOptions" : "Weitere Optionen",
+    "MultiSelectTooltip" : "Select multiple actions",
+    "NoCompletedActions" : "No Completed actions yet!",
+    "NoMatchesFound" : "No matching actions found",
+    "NoPendingActions" : "No Pending actions!",
+    "NoUnassignedActions" : "No Unassigned actions!",
+    "NotExist" : "Action does not exist",
+    "Search" : {
+      "Clear" : "Löschen",
+      "Placeholder" : "Suchen",
+      "Tooltip" : "Suchen"
+    },
+    "Sort" : {
+      "CreationTime" : {
+        "asc" : " (Oldest on Top)",
+        "ascSubMenu" : "Oldest on Top",
+        "desc" : " (Latest on Top)",
+        "descSubMenu" : "Latest on Top"
+      },
+      "SortHeader" : "Sort By:",
+      "TaskPriority" : {
+        "asc" : " (Low to High)",
+        "ascSubMenu" : "Lowest Priority on Top",
+        "desc" : " (High to Low)",
+        "descSubMenu" : "Highest Priority on Top"
+      }
+    },
+    "SortFilterTooltip" : "Sort and Filter actions",
+    "TasksListViewAsAdmin" : "Manage Actions",
+    "TasksListViewAsUser" : "My Actions"
+  },
+  "UnsavedChangesDialog" : {
+    "Header" : "Nicht gespeicherte Änderungen!",
+    "Text" : "Möchten Sie die Aktion wirklich verlassen, ohne die Änderungen zu speichern?"
+  }
+}
