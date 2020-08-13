@@ -48,7 +48,7 @@
     },
     "AssignToSelf" : "Sich selbst zuweisen",
     "AssignToSelfMessage" : "Aktion wurde Ihnen erfolgreich zugewiesen.",
-    "AssignToUser" : "Assign to user",
+    "AssignToUser" : "Dem Benutzer zuweisen",
     "Complete" : "Abgeschlossen",
     "CompletedMsg" : "Aktion erfolgreich abgeschlossen",
     "Forward" : "Weiterleiten",
@@ -80,7 +80,7 @@
     "Title" : "Titel:"
   },
   "TaskCompleteDialog" : {
-    "Complete" : "Complete",
+    "Complete" : "Abgeschlossen",
     "Header" : "Aktion abschließen",
     "Text" : "Möchten Sie diese Aktion als abgeschlossen markieren?"
   },
@@ -135,7 +135,8 @@
     "NotExist" : "Action does not exist",
     "TestNewKey" : "New key added here.",
     "LookANewKey" : "What a lucky key I am.",
-    "AnotherNewKey" : "Hört die Katze auf zu miauen?",
+    "AnotherNewKey" : "I want the cat to stop meowing.",
+    "Answer" : "Tomorrow.",
     "Search" : {
       "Clear" : "Löschen",
       "Placeholder" : "Suchen",
@@ -157,8 +158,8 @@
       }
     },
     "SortFilterTooltip" : "Sort and Filter actions",
-    "TasksListViewAsAdmin" : "Manage Actions",
-    "TasksListViewAsUser" : "My Actions"
+    "TasksListViewAsAdmin" : "Aktionen verwalten",
+    "TasksListViewAsUser" : "Meine Aktionen"
   },
   "UnsavedChangesDialog" : {
     "Header" : "Nicht gespeicherte Änderungen!",
