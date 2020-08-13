@@ -136,6 +136,7 @@
         "TestNewKey": "New key added here.",
         "LookANewKey": "What a lucky key I am.",
         "AnotherNewKey": "Will that cat stop meowing?",
+        "Answer" : "Tomorrow.",
         "Search": {
             "Clear": "Clear",
             "Placeholder": "Search...",
