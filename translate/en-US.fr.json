@@ -135,7 +135,9 @@
     "NotExist" : "Action does not exist",
     "TestNewKey" : "New key added here.",
     "LookANewKey" : "What a lucky key I am.",
-    "AnotherNewKey" : "Ce chat va-t-il cesser de miauler ?",
+    "AnotherNewKey" : "I want the cat to stop meowing.",
+    "ThisNewKey" : "Checking here now.",
+    "Answer" : "Tomorrow.",
     "Search" : {
       "Clear" : "Clear",
       "Placeholder" : "Search...",
