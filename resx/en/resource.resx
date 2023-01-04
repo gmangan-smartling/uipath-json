@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SpecificUser" xml:space="preserve">
+    <value>Specific User</value>
+  </data>
+  <data name="ApplicationPoolIdentity" xml:space="preserve">
+    <value>Application Pool Identity</value>
+  </data>
+  <data name="WindowsIntegratedAuthentication" xml:space="preserve">
+    <value>Windows Integrated Authentication</value>
+  </data>
+  <data name="SqlServerAuthentication" xml:space="preserve">
+    <value>SQL Server Authentication</value>
+  </data>
+  <data name="FieldIsRequired" xml:space="preserve">
+    <value>'{0}' is required.</value>
+  </data>
+  <data name="FieldHasNotAllowedLength" xml:space="preserve">
+    <value>'{0}' must have a maximum length of {1} characters.</value>
+  </data>
+  <data name="UnableValidateAppPoolUser" xml:space="preserve">
+    <value>Unable to validate Application Pool user account. Please verify the credentials.</value>
+  </data>
+  <data name="FieldHasInvalidFormat" xml:space="preserve">
+    <value>The value specified for field '{0}' is not in a correct format.</value>
+  </data>
+  <data name="IdentityTokenBadAudience" xml:space="preserve">
+    <value>The audience component of the JWT token is incorrect.</value>
+  </data>
+  <data name="IdentityTokenBadIssuer" xml:space="preserve">
+    <value>The supplied Identity JWT has a different issuer than the Identity URL provided.</value>
+  </data>
+  <data name="IdentityTokenBadExpiration" xml:space="preserve">
+    <value>The supplied Identity JWT token is expired.</value>
+  </data>
+  <data name="AcceptLicenseAgreement" xml:space="preserve">
+    <value>I accept the terms in license agreement</value>
+  </data>
+  <data name="AddFirewallRulesForPort" xml:space="preserve">
+    <value>Add firewall rules for this port</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageDescription" xml:space="preserve">
+    <value>Application Identity Configuration</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageDetails" xml:space="preserve">
+    <value>Please enter Application Pool identity configuration for IIS</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageTitle" xml:space="preserve">
+    <value>Application Pool Settings</value>
+  </data>
+  <data name="AuthenticationMode" xml:space="preserve">
+    <value>Authentication Mode</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BtnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="BtnFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="BtnInstall" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="BtnNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BtnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="BtnPrevious" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="BtnUpgrade" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="BtnViewLogs" xml:space="preserve">
+    <value>View Logs</value>
+  </data>
+  <data name="BtnYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CanceledByUser" xml:space="preserve">
+    <value>The installation was canceled by user.</value>
+  </data>
+  <data name="CertificateDetails" xml:space="preserve">
+    <value>Fill in the Subject or Thumbprint field of the certificate that the website uses for SSL.</value>
+  </data>
+  <data name="ClickFinishToExit" xml:space="preserve">
+    <value>Click the Finish button to exit the Setup wizard</value>
+  </data>
+  <data name="CollectingUsageDataLink" xml:space="preserve">
+    <value>UiPath collects usage and performance data to help improve its products and services. Learn how to [opt out](https://docs.uipath.com/installation-and-upgrade/v2020.10/docs/action-center-opting-out-of-telemetry).</value>
+  </data>
+  <data name="ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="HostName" xml:space="preserve">
+    <value>Host Name</value>
+  </data>
+  <data name="HowToGetToken" xml:space="preserve">
+    <value>To obtain the access token, log in to [UiPath Identity](https://platform.uipath.com/identity) as Host tenant and get the External Installation Token.</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identity</value>
+  </data>
+  <data name="IdentityInstallationToken" xml:space="preserve">
+    <value>Identity Installation Token</value>
+  </data>
+  <data name="IdentitySettingsPageDescription" xml:space="preserve">
+    <value>UiPath Identity</value>
+  </data>
+  <data name="IdentitySettingsPageDetails" xml:space="preserve">
+    <value>Please configure the connection parameters for UiPath Identity</value>
+  </data>
+  <data name="IdentitySettingsPageTitle" xml:space="preserve">
+    <value>UiPath Identity Settings</value>
+  </data>
+  <data name="IdentityUrl" xml:space="preserve">
+    <value>Identity URL</value>
+  </data>
+  <data name="IISSettingsPageDescription" xml:space="preserve">
+    <value>Internet Information Services</value>
+  </data>
+  <data name="IISSettingsPageDetails" xml:space="preserve">
+    <value>Ensure that Internet Information Services (IIS) 8 or higher is installed.</value>
+  </data>
+  <data name="IISSettingsPageTitle" xml:space="preserve">
+    <value>IIS Settings</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InstallationFailMessage" xml:space="preserve">
+    <value>UiPath Action Center Setup has encountered an error. Please check the log for details.</value>
+  </data>
+  <data name="InstallationFailTitle" xml:space="preserve">
+    <value>Installation error</value>
+  </data>
+  <data name="InstallationFinishSuccess" xml:space="preserve">
+    <value>Completed the UiPath Action Center Setup wizard</value>
+  </data>
+  <data name="InstallationPath" xml:space="preserve">
+    <value>Installation Path</value>
+  </data>
+  <data name="InstallingMainTitle" xml:space="preserve">
+    <value>Installing Action Center</value>
+  </data>
+  <data name="InstallSummaryPageDescription" xml:space="preserve">
+    <value>Installation Overview</value>
+  </data>
+  <data name="InstallSummaryPageDetails" xml:space="preserve">
+    <value>Review the configuration and make sure they are correct, then click Install to begin the installation.</value>
+  </data>
+  <data name="InstallSummaryPageTitle" xml:space="preserve">
+    <value>Installation Summary</value>
+  </data>
+  <data name="OrchestratorUrl" xml:space="preserve">
+    <value>Orchestrator URL</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PleaseWaitBusy" xml:space="preserve">
+    <value>Please wait for the current operation to finish...</value>
+  </data>
+  <data name="PleaseWaitInstall" xml:space="preserve">
+    <value>Please wait while UiPath Action Center is getting installed</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ProgressTextCheckPrerequisitesAction" xml:space="preserve">
+    <value>Checking prerequisites required for installation</value>
+  </data>
+  <data name="ProgressTextCleanupAction" xml:space="preserve">
+    <value>Cleaning up</value>
+  </data>
+  <data name="ProgressTextConfigureIdentityAction" xml:space="preserve">
+    <value>Registering clients with Identity server</value>
+  </data>
+  <data name="ProgressTextConfigureIisAction" xml:space="preserve">
+    <value>Configuring applications in IIS</value>
+  </data>
+  <data name="ProgressTextConfigureIisRollbackAction" xml:space="preserve">
+    <value>Rolling back IIS configuration</value>
+  </data>
+  <data name="ProgressTextRemoveIisConfigurationAction" xml:space="preserve">
+    <value>Removing applications configured in IIS</value>
+  </data>
+  <data name="ProgressTextValidateParametersAction" xml:space="preserve">
+    <value>Validating parameters</value>
+  </data>
+  <data name="ProgressTextWriteProductionConfigAction" xml:space="preserve">
+    <value>Updating configuration files with captured user inputs</value>
+  </data>
+  <data name="ProgressTextWriteProductionJsonRollbackAction" xml:space="preserve">
+    <value>Removing configuration files</value>
+  </data>
+  <data name="ReadLicenseAgreement" xml:space="preserve">
+    <value>Please read the UiPath Action Center license agreement:</value>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Action Center</value>
+  </data>
+  <data name="SqlServerHostName" xml:space="preserve">
+    <value>SQL Server Host</value>
+  </data>
+  <data name="SSLCertificate" xml:space="preserve">
+    <value>SSL Certificate</value>
+  </data>
+  <data name="ActionCenterUrl" xml:space="preserve">
+    <value>Action Center URL</value>
+  </data>
+  <data name="UiPath" xml:space="preserve">
+    <value>UiPath</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="VerifyPortAvailability" xml:space="preserve">
+    <value>Verify port availablility</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ProgressTextSetParametersAction" xml:space="preserve">
+    <value>Setting parameters</value>
+  </data>
+  <data name="ErrorMessages" xml:space="preserve">
+    <value>Error messages:</value>
+  </data>
+  <data name="GenericHttpError" xml:space="preserve">
+    <value>An HttpError has occurred.</value>
+  </data>
+  <data name="HttpError" xml:space="preserve">
+    <value>An HTTP error has occurred (HttpStatusCode: {0}.</value>
+    <comment>{0} = Http Status Code</comment>
+  </data>
+  <data name="UnknownStatus" xml:space="preserve">
+    <value>Unknown status</value>
+  </data>
+  <data name="ProgressTextCheckAndDisableRepairAction" xml:space="preserve">
+    <value>Checking for repair scenario</value>
+  </data>
+  <data name="RepairNotSupportedMessage" xml:space="preserve">
+    <value>UiPath Action Center setup does not support repair.</value>
+  </data>
+  <data name="ProgressTextConfigureDisplayVersionAction" xml:space="preserve">
+    <value>Configuring display version in registry</value>
+  </data>
+  <data name="InstallationErrorIncompatibleVersionInstalled" xml:space="preserve">
+    <value>Installed version {0} cannot be upgraded to {1}.</value>
+  </data>
+  <data name="InstallationErrorHigherVersionInstalled" xml:space="preserve">
+    <value>The higher version {0} is already installed and cannot be downgraded.</value>
+  </data>
+  <data name="InstallationErrorIISModuleNotInstalled" xml:space="preserve">
+    <value>The ASP.Net Core IIS Module is required. This can be installed by running the .NET Core Hosting Bundle version {0} or higher. Check our documentation for installation options.</value>
+  </data>
+  <data name="InstallationErrorIISUrlRewriteModuleNotInstalled" xml:space="preserve">
+    <value>The IIS URL Rewrite Module version 2.1 or higher is required.</value>
+  </data>
+  <data name="InstallationErrorIncompatibleIISVersionInstalled" xml:space="preserve">
+    <value>IIS version {0} or higher is required.</value>
+  </data>
+  <data name="InstallationErrorSameVersionInstalled" xml:space="preserve">
+    <value>The same version is already installed.</value>
+  </data>
+  <data name="TelemetryOptOutText" xml:space="preserve">
+    <value>UiPath collects usage and performance data to help improve its products and services. </value>
+  </data>
+  <data name="TelemetryOptOutHyperLinkText" xml:space="preserve">
+    <value>Learn how to opt out.</value>
+  </data>
+  <data name="InstallationErrorWindowsFeaturesNotFound" xml:space="preserve">
+    <value>The following Windows features are required:{0}{1}.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>UiPath Action Center</value>
+  </data>
+  <data name="ProjectBuilderNewerVersionInstalled" xml:space="preserve">
+    <value>Newer version is already installed</value>
+  </data>
+  <data name="MinimumRequiredOrchestratorVersion" xml:space="preserve">
+    <value>Minimum required version of Orchestrator is {0}. The current version detected is {1}.</value>
+  </data>
+  <data name="ProgressTextRemovingBackupFiles" xml:space="preserve">
+    <value>Removing backup files</value>
+  </data>
+  <data name="IdentityUrlTooltipText" xml:space="preserve">
+    <value>Identity URL is auto populated when it is left blank. Update the URL if the current one is not accurate.</value>
+  </data>
+  <data name="OpenActionCenterInBrowser" xml:space="preserve">
+    <value>Open UiPath Action Center after closing this window</value>
+  </data>
+  <data name="InvalidOrchestratorUrl" xml:space="preserve">
+    <value>An error occured while connecting to Orchestrator. Ensure that url entered points to valid Orchestrator instance.</value>
+  </data>
+  <data name="EditActionCenterUrlToolTip" xml:space="preserve">
+    <value>Update only if Action center will run behind a Reverse Proxy/Load Balancer using a different customer facing URL</value>
+  </data>
+  <data name="InvalidPortForHostName" xml:space="preserve">
+    <value>Port '{0}' used in Action center url is different from port ('{1}') specified in IIS settings page</value>
+  </data>
+  <data name="ProgressTextValidateModelAction" xml:space="preserve">
+    <value>Validating parameters</value>
+  </data>
+  <data name="ProgressTextConfigureAppBaseUrlAction" xml:space="preserve">
+    <value>Registering Action Center URL in Orchestrator</value>
+  </data>
+  <data name="UpgradeSettingsPageTitle" xml:space="preserve">
+    <value>UiPath Identity Settings for Action Center</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="RegisterActionCenterUrlInOrchestratorSettings" xml:space="preserve">
+    <value>Register Action Center URL in Orchestrator Settings</value>
+  </data>
+  <data name="UpgradeSettingsPageDetails" xml:space="preserve">
+    <value>Please enter the following parameters for configuring Action Center URL in UiPath Orchestrator</value>
+  </data>
+  <data name="UpgradeSettingsPageOptionalNote" xml:space="preserve">
+    <value>Actions UI within Orchestrator has been removed from release v21.10 onwards. Complete this step in-order to automatically route business users from Orchestrator Actions to this Action Center portal.</value>
+  </data>
+  <data name="ImportantNote" xml:space="preserve">
+    <value>Important Note : </value>
+  </data>
+  <data name="UpgradeSettingsPageOptionalNoteSecondLine" xml:space="preserve">
+    <value>For multi-node installation, this step is required only for the primary node.</value>
+  </data>
+</root>
