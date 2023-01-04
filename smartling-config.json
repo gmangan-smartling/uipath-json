@@ -1,0 +1,29 @@
+{
+    "locales": [
+         {
+             "smartling" : "fr-FR",
+             "application" : "fr"
+         },
+         {
+             "smartling" : "it-IT",
+             "application" : "it"
+         }
+     ],
+     "resourceSets": [
+         {
+            "type"                      : "json",
+            "pathRegex"                 : "json\\/en\\/.*\\.json",
+            "translationPathExpression" : "json/translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}",
+            "authorizeContent"          : false,
+         },
+
+         {
+            "type"                      : "resx",
+            "pathRegex"                 : "resx\\/en\\/.*\\.resx",
+            "translationPathExpression" : "resx/translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}",
+            "authorizeContent"          : false,
+         }
+     ]
+}
