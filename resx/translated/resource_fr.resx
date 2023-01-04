@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SpecificUser" xml:space="preserve">
+    <value>Specific User</value>
+  </data>
+  <data name="ApplicationPoolIdentity" xml:space="preserve">
+    <value>Identité du pool d&apos;applications</value>
+  </data>
+  <data name="WindowsIntegratedAuthentication" xml:space="preserve">
+    <value>Authentification intégrée de Windows</value>
+  </data>
+  <data name="SqlServerAuthentication" xml:space="preserve">
+    <value>Authentification du serveur SQL</value>
+  </data>
+  <data name="FieldIsRequired" xml:space="preserve">
+    <value>&apos;{0}&apos; est obligatoire.</value>
+  </data>
+  <data name="FieldHasNotAllowedLength" xml:space="preserve">
+    <value>{0}&apos; doit avoir une longueur maximale de {1} caractères.</value>
+  </data>
+  <data name="UnableValidateAppPoolUser" xml:space="preserve">
+    <value>Impossible de valider le compte utilisateur du pool d&apos;applications. Veuillez vérifier les informations d&apos;identification.</value>
+  </data>
+  <data name="FieldHasInvalidFormat" xml:space="preserve">
+    <value>La valeur spécifiée pour le champ &quot;{0}&quot; n&apos;a pas le bon format.</value>
+  </data>
+  <data name="IdentityTokenBadAudience" xml:space="preserve">
+    <value>Le composant d&apos;audience du jeton JWT est incorrect.</value>
+  </data>
+  <data name="IdentityTokenBadIssuer" xml:space="preserve">
+    <value>L&apos;identité JWT fournie a un émetteur différent de l&apos;URL de l&apos;identité fournie.</value>
+  </data>
+  <data name="IdentityTokenBadExpiration" xml:space="preserve">
+    <value>Le jeton d&apos;identité JWT fourni a expiré.</value>
+  </data>
+  <data name="AcceptLicenseAgreement" xml:space="preserve">
+    <value>J&apos;accepte les termes de l&apos;accord de licence</value>
+  </data>
+  <data name="AddFirewallRulesForPort" xml:space="preserve">
+    <value>Ajouter des règles de pare-feu pour ce port</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageDescription" xml:space="preserve">
+    <value>Configuration de l&apos;identité de l&apos;application</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageDetails" xml:space="preserve">
+    <value>Veuillez entrer la configuration de l&apos;identité du pool d&apos;applications pour IIS</value>
+  </data>
+  <data name="ApplicationPoolSettingsPageTitle" xml:space="preserve">
+    <value>Paramètres du pool d&apos;applications</value>
+  </data>
+  <data name="AuthenticationMode" xml:space="preserve">
+    <value>Mode d&apos;authentification</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="BtnClose" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="BtnFinish" xml:space="preserve">
+    <value>Finition</value>
+  </data>
+  <data name="BtnInstall" xml:space="preserve">
+    <value>Installer</value>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="BtnNo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="BtnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="BtnPrevious" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="BtnUpgrade" xml:space="preserve">
+    <value>Mise à niveau</value>
+  </data>
+  <data name="BtnViewLogs" xml:space="preserve">
+    <value>Afficher les journaux</value>
+  </data>
+  <data name="BtnYes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="CanceledByUser" xml:space="preserve">
+    <value>L&apos;installation a été annulée par l&apos;utilisateur.</value>
+  </data>
+  <data name="CertificateDetails" xml:space="preserve">
+    <value>Remplissez le champ Objet ou Empreinte du certificat que le site Web utilise pour SSL.</value>
+  </data>
+  <data name="ClickFinishToExit" xml:space="preserve">
+    <value>Cliquez sur le bouton Terminer pour quitter l&apos;assistant de configuration.</value>
+  </data>
+  <data name="CollectingUsageDataLink" xml:space="preserve">
+    <value>UiPath recueille des données sur l&apos;utilisation et les performances afin d&apos;améliorer ses produits et services. Apprenez comment [se désengager] (https://docs.uipath.com/installation-and-upgrade/v2020.10/docs/action-center-opting-out-of-telemetry).</value>
+  </data>
+  <data name="ConfirmCancel" xml:space="preserve">
+    <value>Vous êtes sûr de vouloir annuler ?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="HostName" xml:space="preserve">
+    <value>Nom de l&apos;hôte</value>
+  </data>
+  <data name="HowToGetToken" xml:space="preserve">
+    <value>Pour obtenir le jeton d&apos;accès, connectez-vous à [UiPath Identity] (https://platform.uipath.com/identity) en tant que locataire hôte et obtenez le jeton d&apos;installation externe.</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identité</value>
+  </data>
+  <data name="IdentityInstallationToken" xml:space="preserve">
+    <value>Token d&apos;installation de l&apos;identité</value>
+  </data>
+  <data name="IdentitySettingsPageDescription" xml:space="preserve">
+    <value>Identité UiPath</value>
+  </data>
+  <data name="IdentitySettingsPageDetails" xml:space="preserve">
+    <value>Veuillez configurer les paramètres de connexion pour UiPath Identity.</value>
+  </data>
+  <data name="IdentitySettingsPageTitle" xml:space="preserve">
+    <value>Paramètres de l&apos;identité UiPath</value>
+  </data>
+  <data name="IdentityUrl" xml:space="preserve">
+    <value>Identité URL</value>
+  </data>
+  <data name="IISSettingsPageDescription" xml:space="preserve">
+    <value>Services d&apos;information sur Internet</value>
+  </data>
+  <data name="IISSettingsPageDetails" xml:space="preserve">
+    <value>Assurez-vous que Internet Information Services (IIS) 8 ou plus est installé.</value>
+  </data>
+  <data name="IISSettingsPageTitle" xml:space="preserve">
+    <value>Paramètres IIS</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InstallationFailMessage" xml:space="preserve">
+    <value>L&apos;installation du centre d&apos;action UiPath a rencontré une erreur. Veuillez consulter le journal pour plus de détails.</value>
+  </data>
+  <data name="InstallationFailTitle" xml:space="preserve">
+    <value>Erreur d&apos;installation</value>
+  </data>
+  <data name="InstallationFinishSuccess" xml:space="preserve">
+    <value>Complété l&apos;assistant de configuration du centre d&apos;action UiPath.</value>
+  </data>
+  <data name="InstallationPath" xml:space="preserve">
+    <value>Chemin d&apos;installation</value>
+  </data>
+  <data name="InstallingMainTitle" xml:space="preserve">
+    <value>Installation de l&apos;Action Center</value>
+  </data>
+  <data name="InstallSummaryPageDescription" xml:space="preserve">
+    <value>Aperçu de l&apos;installation</value>
+  </data>
+  <data name="InstallSummaryPageDetails" xml:space="preserve">
+    <value>Vérifiez la configuration et assurez-vous qu&apos;elle est correcte, puis cliquez sur Installer pour commencer l&apos;installation.</value>
+  </data>
+  <data name="InstallSummaryPageTitle" xml:space="preserve">
+    <value>Résumé de l&apos;installation</value>
+  </data>
+  <data name="OrchestratorUrl" xml:space="preserve">
+    <value>URL de l&apos;Orchestrateur</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PleaseWaitBusy" xml:space="preserve">
+    <value>Veuillez attendre que l&apos;opération en cours se termine...</value>
+  </data>
+  <data name="PleaseWaitInstall" xml:space="preserve">
+    <value>Veuillez patienter pendant que le Centre d&apos;action UiPath s&apos;installe.</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ProgressTextCheckPrerequisitesAction" xml:space="preserve">
+    <value>Vérification des conditions préalables requises pour l&apos;installation</value>
+  </data>
+  <data name="ProgressTextCleanupAction" xml:space="preserve">
+    <value>Le nettoyage</value>
+  </data>
+  <data name="ProgressTextConfigureIdentityAction" xml:space="preserve">
+    <value>Enregistrement des clients auprès du serveur d&apos;identité</value>
+  </data>
+  <data name="ProgressTextConfigureIisAction" xml:space="preserve">
+    <value>Configuration des applications dans IIS</value>
+  </data>
+  <data name="ProgressTextConfigureIisRollbackAction" xml:space="preserve">
+    <value>Réinitialisation de la configuration de IIS</value>
+  </data>
+  <data name="ProgressTextRemoveIisConfigurationAction" xml:space="preserve">
+    <value>Suppression des applications configurées dans IIS</value>
+  </data>
+  <data name="ProgressTextValidateParametersAction" xml:space="preserve">
+    <value>Validation des paramètres</value>
+  </data>
+  <data name="ProgressTextWriteProductionConfigAction" xml:space="preserve">
+    <value>Mise à jour des fichiers de configuration avec les entrées utilisateur capturées</value>
+  </data>
+  <data name="ProgressTextWriteProductionJsonRollbackAction" xml:space="preserve">
+    <value>Suppression des fichiers de configuration</value>
+  </data>
+  <data name="ReadLicenseAgreement" xml:space="preserve">
+    <value>Veuillez lire le contrat de licence du Centre d&apos;action UiPath :</value>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Centre d&apos;action</value>
+  </data>
+  <data name="SqlServerHostName" xml:space="preserve">
+    <value>Hôte du serveur SQL</value>
+  </data>
+  <data name="SSLCertificate" xml:space="preserve">
+    <value>Certificat SSL</value>
+  </data>
+  <data name="ActionCenterUrl" xml:space="preserve">
+    <value>URL du centre d&apos;action</value>
+  </data>
+  <data name="UiPath" xml:space="preserve">
+    <value>UiPath</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nom d&apos;utilisateur :</value>
+  </data>
+  <data name="VerifyPortAvailability" xml:space="preserve">
+    <value>Vérifier la disponibilité des ports</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="ProgressTextSetParametersAction" xml:space="preserve">
+    <value>Paramètres de réglage</value>
+  </data>
+  <data name="ErrorMessages" xml:space="preserve">
+    <value>Messages d&apos;erreur :</value>
+  </data>
+  <data name="GenericHttpError" xml:space="preserve">
+    <value>Une HttpError s&apos;est produite.</value>
+  </data>
+  <data name="HttpError" xml:space="preserve">
+    <value>Une erreur HTTP s&apos;est produite (HttpStatusCode : {0}.</value>
+    <comment>{0} = Http Status Code</comment>
+  </data>
+  <data name="UnknownStatus" xml:space="preserve">
+    <value>Statut inconnu</value>
+  </data>
+  <data name="ProgressTextCheckAndDisableRepairAction" xml:space="preserve">
+    <value>Vérification du scénario de réparation</value>
+  </data>
+  <data name="RepairNotSupportedMessage" xml:space="preserve">
+    <value>La configuration du Centre d&apos;action UiPath ne prend pas en charge la réparation.</value>
+  </data>
+  <data name="ProgressTextConfigureDisplayVersionAction" xml:space="preserve">
+    <value>Configuration de la version d&apos;affichage dans le registre</value>
+  </data>
+  <data name="InstallationErrorIncompatibleVersionInstalled" xml:space="preserve">
+    <value>La version installée {0} ne peut pas être mise à niveau vers {1}.</value>
+  </data>
+  <data name="InstallationErrorHigherVersionInstalled" xml:space="preserve">
+    <value>La version supérieure {0} est déjà installée et ne peut être rétrogradée.</value>
+  </data>
+  <data name="InstallationErrorIISModuleNotInstalled" xml:space="preserve">
+    <value>Le module ASP.Net Core IIS est requis. Il peut être installé en exécutant le pack d&apos;hébergement .NET Core version {0} ou supérieure. Consultez notre documentation pour connaître les options d&apos;installation.</value>
+  </data>
+  <data name="InstallationErrorIISUrlRewriteModuleNotInstalled" xml:space="preserve">
+    <value>Le module IIS URL Rewrite version 2.1 ou supérieure est requis.</value>
+  </data>
+  <data name="InstallationErrorIncompatibleIISVersionInstalled" xml:space="preserve">
+    <value>IIS version {0} ou supérieure est nécessaire.</value>
+  </data>
+  <data name="InstallationErrorSameVersionInstalled" xml:space="preserve">
+    <value>La même version est déjà installée.</value>
+  </data>
+  <data name="TelemetryOptOutText" xml:space="preserve">
+    <value>UiPath recueille des données sur l&apos;utilisation et les performances afin d&apos;améliorer ses produits et services. </value>
+  </data>
+  <data name="TelemetryOptOutHyperLinkText" xml:space="preserve">
+    <value>Apprenez comment vous désengager.</value>
+  </data>
+  <data name="InstallationErrorWindowsFeaturesNotFound" xml:space="preserve">
+    <value>Les fonctions Windows suivantes sont requises : {0}{1}.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Centre d&apos;action UiPath</value>
+  </data>
+  <data name="ProjectBuilderNewerVersionInstalled" xml:space="preserve">
+    <value>Une version plus récente est déjà installée</value>
+  </data>
+  <data name="MinimumRequiredOrchestratorVersion" xml:space="preserve">
+    <value>La version minimale requise d&apos;Orchestrator est {0}. La version actuelle détectée est {1}.</value>
+  </data>
+  <data name="ProgressTextRemovingBackupFiles" xml:space="preserve">
+    <value>Suppression des fichiers de sauvegarde</value>
+  </data>
+  <data name="IdentityUrlTooltipText" xml:space="preserve">
+    <value>L&apos;URL de l&apos;identité est remplie automatiquement lorsqu&apos;elle est laissée vide. Mettez à jour l&apos;URL si l&apos;URL actuelle n&apos;est pas exacte.</value>
+  </data>
+  <data name="OpenActionCenterInBrowser" xml:space="preserve">
+    <value>Ouvrez le Centre d&apos;action UiPath après avoir fermé cette fenêtre.</value>
+  </data>
+  <data name="InvalidOrchestratorUrl" xml:space="preserve">
+    <value>Une erreur s&apos;est produite lors de la connexion à Orchestrator. Assurez-vous que l&apos;url saisie pointe vers une instance Orchestrator valide.</value>
+  </data>
+  <data name="EditActionCenterUrlToolTip" xml:space="preserve">
+    <value>Mise à jour uniquement si le centre d&apos;action est exécuté derrière un proxy inverse/équilibreur de charge utilisant une URL différente pour le client.</value>
+  </data>
+  <data name="InvalidPortForHostName" xml:space="preserve">
+    <value>Le port &apos;{0}&apos; utilisé dans l&apos;url du centre d&apos;action est différent du port (&apos;{1}&apos;) spécifié dans la page des paramètres IIS.</value>
+  </data>
+  <data name="ProgressTextValidateModelAction" xml:space="preserve">
+    <value>Validation des paramètres</value>
+  </data>
+  <data name="ProgressTextConfigureAppBaseUrlAction" xml:space="preserve">
+    <value>Enregistrement de l&apos;URL de l&apos;Action Center dans Orchestrator</value>
+  </data>
+  <data name="UpgradeSettingsPageTitle" xml:space="preserve">
+    <value>Paramètres d&apos;identité UiPath pour l&apos;Action Center</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>En option</value>
+  </data>
+  <data name="RegisterActionCenterUrlInOrchestratorSettings" xml:space="preserve">
+    <value>Enregistrer l&apos;URL de l&apos;Action Center dans les paramètres d&apos;Orchestrator</value>
+  </data>
+  <data name="UpgradeSettingsPageDetails" xml:space="preserve">
+    <value>Veuillez entrer les paramètres suivants pour configurer l&apos;URL de l&apos;Action Center dans UiPath Orchestrator.</value>
+  </data>
+  <data name="UpgradeSettingsPageOptionalNote" xml:space="preserve">
+    <value>L&apos;interface utilisateur des actions dans Orchestrator a été supprimée à partir de la version v21.10. Complétez cette étape afin d&apos;acheminer automatiquement les utilisateurs professionnels des actions Orchestrator vers ce portail Action Center.</value>
+  </data>
+  <data name="ImportantNote" xml:space="preserve">
+    <value>Remarque importante : </value>
+  </data>
+  <data name="UpgradeSettingsPageOptionalNoteSecondLine" xml:space="preserve">
+    <value>Pour une installation multi-nœuds, cette étape n&apos;est requise que pour le nœud primaire.</value>
+  </data>
+</root>
