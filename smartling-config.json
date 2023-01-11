@@ -1,4 +1,9 @@
 {
+    // Locales array defines which languages are requested for translation. These locales must already exist in the Smartling project.
+    // You can have one or more locales, but smartling locale name must be unique
+    // Each locale has two required attributes
+    //    smartling   - the locale name in Smartling, available from the API settings in the Smartling project
+    //    application - the corresponding locale name in your system. This value is used in the translation commit message
     "locales": [
          {
              "smartling" : "fr-FR",
